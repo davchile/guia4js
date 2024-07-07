@@ -1,0 +1,79 @@
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.producto {
+    padding: 10px;
+    background: lightgray;
+}
+
+.producto img {
+    width: 100%;
+}
+
+.producto .indicador {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.producto .indicador.rojo {
+    background: red;
+}
+
+.producto .indicador.azul {
+    background: blue;
+}
+
+.producto .agotado {
+    display: none;
+}
+
+.producto .agotado.mostrar {
+    display: block;
+}
+
+.iconos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.iconos .card {
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.iconos span {
+    font-size: 2rem;
+}
+
+#iconos2 {
+    margin-top: 1rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.articulo {
+    width: 250px;
+    padding: 10px;
+    background: lightgray;
+}
+
+table, thead, th, td{
+    border: solid 1px 
+    gray;
+}
